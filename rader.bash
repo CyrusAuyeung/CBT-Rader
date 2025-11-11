@@ -14,7 +14,7 @@ echo "正在启动 Fast-LIO 终端..."
 
 gnome-terminal --title="Fast-LIO" -- /bin/bash -c " \
     echo 'ROS 节点: 正在启动 Fast-LIO...'; \
-    source /home/c/ws_fast_lio/install/setup.bash; \
+    source /home/c/ws_Fast_LIO/install/setup.bash; \
     ros2 launch fast_lio mapping.launch.py config_file:=mid360.yaml; \
     exec bash"
 
