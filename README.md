@@ -1,2 +1,2 @@
 # CBT-Rader
-Create Bot Team Rader
+在终端中输入bash rader.bash
